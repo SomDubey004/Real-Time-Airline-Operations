@@ -6,6 +6,7 @@ Handles communication with external APIs.
 
 import requests
 from requests.exceptions import RequestException
+from config.config import API_URL, API_TIMEOUT
 
 
 class APIClient:
@@ -17,10 +18,10 @@ class APIClient:
         try:
 
             response = requests.get(
-                "https://jsonplaceholder.typicode.com/posts",
-                timeout=10
+                API_URL,
+                timeout=API_TIMEOUT
             )
-
+            
             response.raise_for_status()
 
             print("API request successful.")
