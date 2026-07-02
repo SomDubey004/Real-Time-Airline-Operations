@@ -1,23 +1,29 @@
 """
-Project Configuration
-
-Stores all configurable values used throughout the project.
+Application Configuration
+-------------------------
+Stores configuration variables used across the project.
 """
 
-# ================================
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env
+load_dotenv()
+
+# ==========================
 # Database Configuration
-# ================================
+# ==========================
 
 DB_HOST = "localhost"
 DB_USER = "root"
-DB_PASSWORD = "123456"
-DB_NAME = "airline_project"
-
+DB_PASSWORD = "YOUR_MYSQL_PASSWORD"
+DB_NAME = "flight_db"
 
 # ==========================
-# API Configuration
+# AviationStack API
 # ==========================
 
-API_URL = "https://jsonplaceholder.typicode.com/posts"
-
+API_URL = "https://api.aviationstack.com/v1/flights"
 API_TIMEOUT = 10
+
+API_KEY = os.getenv("AVIATIONSTACK_API_KEY")

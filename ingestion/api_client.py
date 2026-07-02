@@ -6,25 +6,35 @@ Handles communication with external APIs.
 
 import requests
 from requests.exceptions import RequestException
-from config.config import API_URL, API_TIMEOUT
+
+from config.config import API_KEY, API_URL, API_TIMEOUT
 
 
 class APIClient:
 
-    def get_posts(self):
+    def fetch_flights(self):
+        """
+        Fetch live flight data from AviationStack.
+        """
 
-        print("Sending request to API...")
+        params = {
+            "access_key": API_KEY,
+            "limit": 10
+        }
+
+        print("Requesting live flight data...")
 
         try:
 
             response = requests.get(
                 API_URL,
+                params=params,
                 timeout=API_TIMEOUT
             )
-            
+
             response.raise_for_status()
 
-            print("API request successful.")
+            print("Flight data received successfully.")
 
             return response.json()
 
