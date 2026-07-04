@@ -1,3 +1,6 @@
+from transformation.validation import validate_flight
+from transformation.standardizer import standardize_flight
+
 """
 Flatten neated AviationStack/OpenSky flight JSON
 into a relational structure suitable for MySQL.
@@ -35,7 +38,13 @@ def flatten_all_flights(api_response):
     flights = api_response.get("data", [])
 
     for flight in flights:
-        flat_record = flatten_flight(flight)
-        flattened_flights.append(flat_record)
+
+        flat = flatten_flight(flight)
+
+        is_valid, reason = validate_flight(flat)
+
+        if is_valid:
+            flat = standardize_flight(flat)
+            flattened_flights.append(flat)
 
     return flattened_flights
