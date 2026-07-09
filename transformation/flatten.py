@@ -1,5 +1,6 @@
 from transformation.validation import validate_flight
 from transformation.standardizer import standardize_flight
+from utils.logger import logger
 
 """
 Flatten neated AviationStack/OpenSky flight JSON
@@ -46,5 +47,9 @@ def flatten_all_flights(api_response):
         if is_valid:
             flat = standardize_flight(flat)
             flattened_flights.append(flat)
+        else:
+            logger.warning(
+                f"Flight {flat.get('flight_iata', 'UNKNOWN')} rejected: {reason}"
+                )
 
     return flattened_flights
