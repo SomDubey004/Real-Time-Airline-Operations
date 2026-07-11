@@ -1,17 +1,26 @@
 """
-Transformation pipeline.
-
+Transformation Pipeline
+-----------------------
 Coordinates all transformation steps.
 """
 
 from transformation.flatten import flatten_all_flights
 
 
-def transform(api_response):
+class FlightTransformer:
     """
-    Runs the complete transformation stage.
+    Runs the complete transformation pipeline.
     """
 
-    flattened_flights = flatten_all_flights(api_response)
+    def transform(self, api_response):
+        """
+        Transform API response into cleaned flight records.
+        """
 
-    return flattened_flights
+        print("Starting transformation...")
+
+        flights = flatten_all_flights(api_response)
+
+        print(f"Transformation completed. {len(flights)} valid flights.")
+
+        return flights

@@ -1,6 +1,8 @@
 from transformation.validation import validate_flight
 from transformation.standardizer import standardize_flight
-from utils.logger import logger
+from utils.logger import get_logger
+
+logger = get_logger()
 
 """
 Flatten neated AviationStack/OpenSky flight JSON

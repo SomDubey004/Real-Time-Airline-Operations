@@ -10,14 +10,15 @@ from dotenv import load_dotenv
 # Load environment variables from .env
 load_dotenv()
 
-# ==========================
-# Database Configuration
-# ==========================
+# =========================
+# PostgreSQL Configuration
+# =========================
 
 DB_HOST = "localhost"
-DB_USER = "root"
-DB_PASSWORD = "YOUR_MYSQL_PASSWORD"
-DB_NAME = "flight_db"
+DB_PORT = 5432
+DB_NAME = "airline_operations"
+DB_USER = "postgres"
+DB_PASSWORD = "123456"
 
 # ==========================
 # AviationStack API

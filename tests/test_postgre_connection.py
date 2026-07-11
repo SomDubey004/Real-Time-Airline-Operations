@@ -1,0 +1,11 @@
+from database.db_connection import get_connection
+
+try:
+    connection = get_connection()
+
+    print("Database connection successful!")
+
+    connection.close()
+
+except Exception as e:
+    print(f"Database connection failed: {e}")

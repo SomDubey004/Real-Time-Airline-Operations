@@ -1,0 +1,540 @@
+{
+    "pagination": {
+        "limit": 10,
+        "offset": 0,
+        "count": 10,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-11",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chongqing Jiangbei International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CKG",
+                "icao": "ZUCK",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-11T05:05:00+00:00",
+                "estimated": "2026-07-11T05:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Haikou",
+                "timezone": "Asia/Shanghai",
+                "iata": "HAK",
+                "icao": "ZJHK",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-11T07:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Southern Airlines",
+                "iata": "CZ",
+                "icao": "CSN"
+            },
+            "flight": {
+                "number": "2341",
+                "iata": "CZ2341",
+                "icao": "CSN2341",
+                "codeshared": {
+                    "airline_name": "chongqing airlines",
+                    "airline_iata": "oq",
+                    "airline_icao": "cqn",
+                    "flight_number": "2341",
+                    "flight_iata": "oq2341",
+                    "flight_icao": "cqn2341"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-11",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chongqing Jiangbei International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CKG",
+                "icao": "ZUCK",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-11T05:05:00+00:00",
+                "estimated": "2026-07-11T05:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kashi",
+                "timezone": "Asia/Shanghai",
+                "iata": "KHG",
+                "icao": "ZWSH",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-11T10:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Southern Airlines",
+                "iata": "CZ",
+                "icao": "CSN"
+            },
+            "flight": {
+                "number": "2009",
+                "iata": "CZ2009",
+                "icao": "CSN2009",
+                "codeshared": {
+                    "airline_name": "chongqing airlines",
+                    "airline_iata": "oq",
+                    "airline_icao": "cqn",
+                    "flight_number": "2009",
+                    "flight_iata": "oq2009",
+                    "flight_icao": "cqn2009"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-11",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chongqing Jiangbei International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CKG",
+                "icao": "ZUCK",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-11T05:00:00+00:00",
+                "estimated": "2026-07-11T05:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Changsha",
+                "timezone": "Asia/Shanghai",
+                "iata": "CSX",
+                "icao": "ZGHA",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-11T06:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Southern Airlines",
+                "iata": "CZ",
+                "icao": "CSN"
+            },
+            "flight": {
+                "number": "2353",
+                "iata": "CZ2353",
+                "icao": "CSN2353",
+                "codeshared": {
+                    "airline_name": "chongqing airlines",
+                    "airline_iata": "oq",
+                    "airline_icao": "cqn",
+                    "flight_number": "2353",
+                    "flight_iata": "oq2353",
+                    "flight_icao": "cqn2353"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-11",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chongqing Jiangbei International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CKG",
+                "icao": "ZUCK",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-11T04:35:00+00:00",
+                "estimated": "2026-07-11T04:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shenzhen",
+                "timezone": "Asia/Shanghai",
+                "iata": "SZX",
+                "icao": "ZGSZ",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-11T06:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Southern Airlines",
+                "iata": "CZ",
+                "icao": "CSN"
+            },
+            "flight": {
+                "number": "2345",
+                "iata": "CZ2345",
+                "icao": "CSN2345",
+                "codeshared": {
+                    "airline_name": "chongqing airlines",
+                    "airline_iata": "oq",
+                    "airline_icao": "cqn",
+                    "flight_number": "2345",
+                    "flight_iata": "oq2345",
+                    "flight_icao": "cqn2345"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-11",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chongqing Jiangbei International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CKG",
+                "icao": "ZUCK",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-11T04:00:00+00:00",
+                "estimated": "2026-07-11T04:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Guangzhou Baiyun International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CAN",
+                "icao": "ZGGG",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-11T06:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Southern Airlines",
+                "iata": "CZ",
+                "icao": "CSN"
+            },
+            "flight": {
+                "number": "2317",
+                "iata": "CZ2317",
+                "icao": "CSN2317",
+                "codeshared": {
+                    "airline_name": "chongqing airlines",
+                    "airline_iata": "oq",
+                    "airline_icao": "cqn",
+                    "flight_number": "2317",
+                    "flight_iata": "oq2317",
+                    "flight_icao": "cqn2317"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-11",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chongqing Jiangbei International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CKG",
+                "icao": "ZUCK",
+                "terminal": "T3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-11T03:40:00+00:00",
+                "estimated": "2026-07-11T03:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Qingdao",
+                "timezone": "Asia/Shanghai",
+                "iata": "TAO",
+                "icao": "ZSQD",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-11T06:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Southern Airlines",
+                "iata": "CZ",
+                "icao": "CSN"
+            },
+            "flight": {
+                "number": "2333",
+                "iata": "CZ2333",
+                "icao": "CSN2333",
+                "codeshared": {
+                    "airline_name": "chongqing airlines",
+                    "airline_iata": "oq",
+                    "airline_icao": "cqn",
+                    "flight_number": "2333",
+                    "flight_iata": "oq2333",
+                    "flight_icao": "cqn2333"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-11",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chongqing Jiangbei International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CKG",
+                "icao": "ZUCK",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-11T02:40:00+00:00",
+                "estimated": "2026-07-11T02:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Korla",
+                "timezone": "Asia/Shanghai",
+                "iata": "KRL",
+                "icao": "ZWKL",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-11T07:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Southern Airlines",
+                "iata": "CZ",
+                "icao": "CSN"
+            },
+            "flight": {
+                "number": "2367",
+                "iata": "CZ2367",
+                "icao": "CSN2367",
+                "codeshared": {
+                    "airline_name": "chongqing airlines",
+                    "airline_iata": "oq",
+                    "airline_icao": "cqn",
+                    "flight_number": "2367",
+                    "flight_iata": "oq2367",
+                    "flight_icao": "cqn2367"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-11",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chongqing Jiangbei International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CKG",
+                "icao": "ZUCK",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-11T02:35:00+00:00",
+                "estimated": "2026-07-11T02:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-11T07:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Australia",
+                "iata": "VA",
+                "icao": "VOZ"
+            },
+            "flight": {
+                "number": "5769",
+                "iata": "VA5769",
+                "icao": "VOZ5769",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "819",
+                    "flight_iata": "sq819",
+                    "flight_icao": "sia819"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-11",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chongqing Jiangbei International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CKG",
+                "icao": "ZUCK",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-11T02:35:00+00:00",
+                "estimated": "2026-07-11T02:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-11T07:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air China",
+                "iata": "CA",
+                "icao": "CCA"
+            },
+            "flight": {
+                "number": "5256",
+                "iata": "CA5256",
+                "icao": "CCA5256",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "819",
+                    "flight_iata": "sq819",
+                    "flight_icao": "sia819"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-11",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chongqing Jiangbei International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CKG",
+                "icao": "ZUCK",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-11T02:30:00+00:00",
+                "estimated": "2026-07-11T02:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shuangliu",
+                "timezone": "Asia/Shanghai",
+                "iata": "CTU",
+                "icao": "ZUUU",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-11T03:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Cathay Pacific",
+                "iata": "CX",
+                "icao": "CPA"
+            },
+            "flight": {
+                "number": "3260",
+                "iata": "CX3260",
+                "icao": "CPA3260",
+                "codeshared": {
+                    "airline_name": "cathay pacific",
+                    "airline_iata": "cx",
+                    "airline_icao": "cpa",
+                    "flight_number": "3261",
+                    "flight_iata": "cx3261",
+                    "flight_icao": "cpa3261"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}
