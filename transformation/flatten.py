@@ -18,15 +18,24 @@ def flatten_flight(flight):
     flattened = {}
 
     flattened["flight_date"] = flight.get("flight_date")
+
     flattened["flight_status"] = flight.get("flight_status")
 
     flattened["airline_name"] = flight.get("airline",{}).get("name")
+
     flattened["flight_iata"] = flight.get("flight",{}).get("iata")
 
     flattened["departure_airport"] = flight.get("departure",{}).get("airport")
+
+    flattened["departure_iata"] = flight.get("departure",{}).get("iata")
+
     flattened["departure_delay"] = flight.get("departure",{}).get("delay")
 
     flattened["arrival_airport"] = flight.get("arrival",{}).get("airport")
+
+    flattened["arrival_iata"] = flight.get("arrival",{}).get("iata")
+
+    flattened["arrival_delay"] = flight.get("arrival",{}).get("delay")
 
     return flattened 
 

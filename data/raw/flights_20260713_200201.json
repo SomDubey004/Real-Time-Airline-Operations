@@ -1,0 +1,550 @@
+{
+    "pagination": {
+        "limit": 10,
+        "offset": 0,
+        "count": 10,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D6",
+                "delay": null,
+                "scheduled": "2026-07-14T09:05:00+00:00",
+                "estimated": "2026-07-14T09:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Tauranga",
+                "timezone": "Pacific/Auckland",
+                "iata": "TRG",
+                "icao": "NZTG",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-14T11:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "5806",
+                "iata": "NZ5806",
+                "icao": "ANZ5806",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C828EA"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D19",
+                "delay": null,
+                "scheduled": "2026-07-14T09:00:00+00:00",
+                "estimated": "2026-07-14T09:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "D",
+                "gate": "30",
+                "baggage": "2",
+                "scheduled": "2026-07-14T10:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "548",
+                "iata": "NZ548",
+                "icao": "ANZ548",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C829AB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D19",
+                "delay": null,
+                "scheduled": "2026-07-14T09:00:00+00:00",
+                "estimated": "2026-07-14T09:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "D",
+                "gate": "30",
+                "baggage": "2",
+                "scheduled": "2026-07-14T10:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "South African Airways",
+                "iata": "SA",
+                "icao": "SAA"
+            },
+            "flight": {
+                "number": "7069",
+                "iata": "SA7069",
+                "icao": "SAA7069",
+                "codeshared": {
+                    "airline_name": "air new zealand",
+                    "airline_iata": "nz",
+                    "airline_icao": "anz",
+                    "flight_number": "548",
+                    "flight_iata": "nz548",
+                    "flight_icao": "anz548"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C829AB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D19",
+                "delay": null,
+                "scheduled": "2026-07-14T09:00:00+00:00",
+                "estimated": "2026-07-14T09:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "D",
+                "gate": "30",
+                "baggage": "2",
+                "scheduled": "2026-07-14T10:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Etihad Airways",
+                "iata": "EY",
+                "icao": "ETD"
+            },
+            "flight": {
+                "number": "4553",
+                "iata": "EY4553",
+                "icao": "ETD4553",
+                "codeshared": {
+                    "airline_name": "air new zealand",
+                    "airline_iata": "nz",
+                    "airline_icao": "anz",
+                    "flight_number": "548",
+                    "flight_iata": "nz548",
+                    "flight_icao": "anz548"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C829AB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D19",
+                "delay": null,
+                "scheduled": "2026-07-14T09:00:00+00:00",
+                "estimated": "2026-07-14T09:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "D",
+                "gate": "30",
+                "baggage": "2",
+                "scheduled": "2026-07-14T10:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "EVA Air",
+                "iata": "BR",
+                "icao": "EVA"
+            },
+            "flight": {
+                "number": "3218",
+                "iata": "BR3218",
+                "icao": "EVA3218",
+                "codeshared": {
+                    "airline_name": "air new zealand",
+                    "airline_iata": "nz",
+                    "airline_icao": "anz",
+                    "flight_number": "548",
+                    "flight_iata": "nz548",
+                    "flight_icao": "anz548"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C829AB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D14",
+                "delay": null,
+                "scheduled": "2026-07-14T08:50:00+00:00",
+                "estimated": "2026-07-14T08:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Invercargill",
+                "timezone": "Pacific/Auckland",
+                "iata": "IVC",
+                "icao": "NZNV",
+                "terminal": null,
+                "gate": "2",
+                "baggage": null,
+                "scheduled": "2026-07-14T10:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "5719",
+                "iata": "NZ5719",
+                "icao": "ANZ5719",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C8276C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D14",
+                "delay": null,
+                "scheduled": "2026-07-14T08:50:00+00:00",
+                "estimated": "2026-07-14T08:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Invercargill",
+                "timezone": "Pacific/Auckland",
+                "iata": "IVC",
+                "icao": "NZNV",
+                "terminal": null,
+                "gate": "2",
+                "baggage": null,
+                "scheduled": "2026-07-14T10:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "8615",
+                "iata": "QF8615",
+                "icao": "QFA8615",
+                "codeshared": {
+                    "airline_name": "air new zealand",
+                    "airline_iata": "nz",
+                    "airline_icao": "anz",
+                    "flight_number": "5719",
+                    "flight_iata": "nz5719",
+                    "flight_icao": "anz5719"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C8276C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D7",
+                "delay": null,
+                "scheduled": "2026-07-14T08:45:00+00:00",
+                "estimated": "2026-07-14T08:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Hokitika Airport",
+                "timezone": "Pacific/Auckland",
+                "iata": "HKK",
+                "icao": "NZHK",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-14T09:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "5830",
+                "iata": "NZ5830",
+                "icao": "ANZ5830",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D18",
+                "delay": null,
+                "scheduled": "2026-07-14T08:40:00+00:00",
+                "estimated": "2026-07-14T08:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Queenstown",
+                "timezone": "Pacific/Auckland",
+                "iata": "ZQN",
+                "icao": "NZQN",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-14T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "659",
+                "iata": "NZ659",
+                "icao": "ANZ659",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C82269"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D18",
+                "delay": null,
+                "scheduled": "2026-07-14T08:40:00+00:00",
+                "estimated": "2026-07-14T08:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Queenstown",
+                "timezone": "Pacific/Auckland",
+                "iata": "ZQN",
+                "icao": "NZQN",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-14T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Etihad Airways",
+                "iata": "EY",
+                "icao": "ETD"
+            },
+            "flight": {
+                "number": "4530",
+                "iata": "EY4530",
+                "icao": "ETD4530",
+                "codeshared": {
+                    "airline_name": "air new zealand",
+                    "airline_iata": "nz",
+                    "airline_icao": "anz",
+                    "flight_number": "659",
+                    "flight_iata": "nz659",
+                    "flight_icao": "anz659"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C82269"
+            },
+            "live": null
+        }
+    ]
+}

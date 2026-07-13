@@ -7,9 +7,9 @@ Coordinates the ETL workflow.
 import json
 import os
 from datetime import datetime
-from venv import logger
 from ingestion.api_client import APIClient
 from transformation.transform_pipeline import FlightTransformer
+from loading.flight_loader import FlightLoader
 from utils.logger import get_logger
 
 
@@ -18,6 +18,7 @@ class FlightETLPipeline:
     def __init__(self):
         self.api_client = APIClient()
         self.transformer = FlightTransformer()
+        self.loader = FlightLoader()
         self.logger = get_logger()
 
         self.logger.info("Flight ETL Pipeline initialized.")
@@ -58,14 +59,19 @@ class FlightETLPipeline:
     
     def transform_data(self, api_response):
         """
-        Transforms the raw API response into cleaned flight records.
+        Transforms the raw API response and loads the valid flights into the PostgreSQL database.
         """
 
-        logger.info("Starting transformation...")
+        self.logger.info("Starting transformation...")
 
         transformed = self.transformer.transform(api_response)
 
-        logger.info(f"Transformation completed. {len(transformed)} valid flights.")
+        self.logger.info(f"Transformation completed. {len(transformed)} valid flights.")
+
+        if transformed:
+            self.loader.load_flights(transformed)
+        else:
+            self.logger.warning("No valid flights to load.")
 
         return transformed 
     
