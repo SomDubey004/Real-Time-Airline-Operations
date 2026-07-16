@@ -24,50 +24,58 @@ class FlightLoader:
 
         cursor = self.connection.cursor()
 
-        self.logger.info(
-            f" Loading {len(flights)} flights into PostgreSQL..."
-        )
+        try:
 
-        insert_query = """
-        INSERT INTO flights (
-            flight_date,
-            flight_status,
-            airline_name,
-            flight_iata,
-            departure_airport,
-            departure_iata,
-            arrival_airport,
-            arrival_iata,
-            departure_delay,
-            arrival_delay
-        )
-        VALUES (
-            %s, %s, %s, %s, %s,
-            %s, %s, %s, %s, %s    
-        );
-        """
-
-        for flight in flights:
-
-            values = (
-                flight.get("flight_date"),
-                flight.get("flight_status"),
-                flight.get("airline_name"),
-                flight.get("flight_iata"),
-                flight.get("departure_airport"),
-                flight.get("departure_iata"),
-                flight.get("arrival_airport"),
-                flight.get("arrival_iata"),
-                flight.get("departure_delay"),
-                flight.get("arrival_delay")
+            self.logger.info(
+                f" Loading {len(flights)} flights into PostgreSQL..."
             )
 
-            cursor.execute(insert_query, values)
+            insert_query = """
+            INSERT INTO flights (
+                flight_date,
+                flight_status,
+                airline_name,
+                flight_iata,
+                departure_airport,
+                departure_iata,
+                arrival_airport,
+                arrival_iata,
+                departure_delay,
+                arrival_delay
+            )
+            VALUES (
+                %s, %s, %s, %s, %s,
+                %s, %s, %s, %s, %s    
+            );
+            """
 
-        self.connection.commit()
+            for flight in flights:
 
-        cursor.close()
-        
-        self.logger.info(
-            f"{len(flights)} flights loaded successfully."
-        )
+                values = (
+                    flight.get("flight_date"),
+                    flight.get("flight_status"),
+                    flight.get("airline_name"),
+                    flight.get("flight_iata"),
+                    flight.get("departure_airport"),
+                    flight.get("departure_iata"),
+                    flight.get("arrival_airport"),
+                    flight.get("arrival_iata"),
+                    flight.get("departure_delay"),
+                    flight.get("arrival_delay")
+                )
+
+                cursor.execute(insert_query, values)
+
+            self.connection.commit()
+
+        except Exception as e:
+
+            self.connection.rollback()
+
+            self.logger.error(f"Error loading flights: {e}")
+            
+            raise
+
+        finally:
+            
+            cursor.close()
