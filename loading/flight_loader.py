@@ -46,8 +46,20 @@ class FlightLoader:
             VALUES (
                 %s, %s, %s, %s, %s,
                 %s, %s, %s, %s, %s    
-            );
+            )
+            ON CONFLICT (flight_iata, flight_date)
+            DO UPDATE SET
+                flight_status = EXCLUDED.flight_status,
+                airline_name = EXCLUDED.airline_name,
+                departure_airport = EXCLUDED.departure_airport,
+                departure_iata = EXCLUDED.departure_iata,
+                arrival_airport = EXCLUDED.arrival_airport,
+                arrival_iata = EXCLUDED.arrival_iata,
+                departure_delay = EXCLUDED.departure_delay,
+                arrival_delay = EXCLUDED.arrival_delay;
             """
+
+            all_values = []
 
             for flight in flights:
 
@@ -64,9 +76,25 @@ class FlightLoader:
                     flight.get("arrival_delay")
                 )
 
-                cursor.execute(insert_query, values)
+                all_values.append(values)
+
+            if not all_values:
+                self.logger.info("No valid flights to load.")
+                return {
+                    "processed_flights": 0,
+                    "loaded_flights": 0
+                }
+            
+            cursor.executemany(insert_query, all_values)
 
             self.connection.commit()
+
+            self.logger.info(f"Successfully loaded {len(flights)} flights into PostgreSQL.")
+
+            return {
+                "processed_flights": len(flights),
+                "loaded_flights": len(flights)
+            }
 
         except Exception as e:
 

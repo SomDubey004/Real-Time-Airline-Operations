@@ -1,0 +1,546 @@
+{
+    "pagination": {
+        "limit": 10,
+        "offset": 0,
+        "count": 10,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Jackson Field",
+                "timezone": "Pacific/Port_Moresby",
+                "iata": "POM",
+                "icao": "AYPY",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T09:00:00+00:00",
+                "estimated": "2026-07-22T09:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cairns",
+                "timezone": "Australia/Brisbane",
+                "iata": "CNS",
+                "icao": "YBCS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T12:02:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "8980D5"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T00:25:00+00:00",
+                "estimated": "2026-07-21T00:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Nuevo Dorado International",
+                "timezone": "America/Bogota",
+                "iata": "BOG",
+                "icao": "SKBO",
+                "terminal": "1",
+                "gate": "56",
+                "baggage": null,
+                "scheduled": "2026-07-21T06:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "WestJet",
+                "iata": "WS",
+                "icao": "WJA"
+            },
+            "flight": {
+                "number": "5783",
+                "iata": "WS5783",
+                "icao": "WJA5783",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "717",
+                    "flight_iata": "am717",
+                    "flight_icao": "amx717"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "0D0DD9"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T00:25:00+00:00",
+                "estimated": "2026-07-21T00:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Nuevo Dorado International",
+                "timezone": "America/Bogota",
+                "iata": "BOG",
+                "icao": "SKBO",
+                "terminal": "1",
+                "gate": "56",
+                "baggage": null,
+                "scheduled": "2026-07-21T06:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aerolineas Argentinas",
+                "iata": "AR",
+                "icao": "ARG"
+            },
+            "flight": {
+                "number": "7345",
+                "iata": "AR7345",
+                "icao": "ARG7345",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "717",
+                    "flight_iata": "am717",
+                    "flight_icao": "amx717"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "0D0DD9"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Lester B. Pearson International",
+                "timezone": "America/Toronto",
+                "iata": "YYZ",
+                "icao": "CYYZ",
+                "terminal": "1",
+                "gate": "E80",
+                "delay": null,
+                "scheduled": "2026-07-21T00:55:00+00:00",
+                "estimated": "2026-07-21T00:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Nuevo Dorado International",
+                "timezone": "America/Bogota",
+                "iata": "BOG",
+                "icao": "SKBO",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T05:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "GOL",
+                "iata": "G3",
+                "icao": "GLO"
+            },
+            "flight": {
+                "number": "6616",
+                "iata": "G36616",
+                "icao": "GLO6616",
+                "codeshared": {
+                    "airline_name": "avianca",
+                    "airline_iata": "av",
+                    "airline_icao": "ava",
+                    "flight_number": "205",
+                    "flight_iata": "av205",
+                    "flight_icao": "ava205"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Lester B. Pearson International",
+                "timezone": "America/Toronto",
+                "iata": "YYZ",
+                "icao": "CYYZ",
+                "terminal": "1",
+                "gate": "E80",
+                "delay": null,
+                "scheduled": "2026-07-21T00:55:00+00:00",
+                "estimated": "2026-07-21T00:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Nuevo Dorado International",
+                "timezone": "America/Bogota",
+                "iata": "BOG",
+                "icao": "SKBO",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T05:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Etihad Airways",
+                "iata": "EY",
+                "icao": "ETD"
+            },
+            "flight": {
+                "number": "2621",
+                "iata": "EY2621",
+                "icao": "ETD2621",
+                "codeshared": {
+                    "airline_name": "avianca",
+                    "airline_iata": "av",
+                    "airline_icao": "ava",
+                    "flight_number": "205",
+                    "flight_iata": "av205",
+                    "flight_icao": "ava205"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Miami International Airport",
+                "timezone": "America/New_York",
+                "iata": "MIA",
+                "icao": "KMIA",
+                "terminal": "S",
+                "gate": "J2",
+                "delay": null,
+                "scheduled": "2026-07-21T02:45:00+00:00",
+                "estimated": "2026-07-21T02:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Nuevo Dorado International",
+                "timezone": "America/Bogota",
+                "iata": "BOG",
+                "icao": "SKBO",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T05:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "6704",
+                "iata": "UA6704",
+                "icao": "UAL6704",
+                "codeshared": {
+                    "airline_name": "avianca",
+                    "airline_iata": "av",
+                    "airline_icao": "ava",
+                    "flight_number": "9",
+                    "flight_iata": "av9",
+                    "flight_icao": "ava9"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Miami International Airport",
+                "timezone": "America/New_York",
+                "iata": "MIA",
+                "icao": "KMIA",
+                "terminal": "S",
+                "gate": "J2",
+                "delay": null,
+                "scheduled": "2026-07-21T02:45:00+00:00",
+                "estimated": "2026-07-21T02:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Nuevo Dorado International",
+                "timezone": "America/Bogota",
+                "iata": "BOG",
+                "icao": "SKBO",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T05:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "TAP Air Portugal",
+                "iata": "TP",
+                "icao": "TAP"
+            },
+            "flight": {
+                "number": "7304",
+                "iata": "TP7304",
+                "icao": "TAP7304",
+                "codeshared": {
+                    "airline_name": "avianca",
+                    "airline_iata": "av",
+                    "airline_icao": "ava",
+                    "flight_number": "9",
+                    "flight_iata": "av9",
+                    "flight_icao": "ava9"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Miami International Airport",
+                "timezone": "America/New_York",
+                "iata": "MIA",
+                "icao": "KMIA",
+                "terminal": "S",
+                "gate": "J2",
+                "delay": null,
+                "scheduled": "2026-07-21T02:45:00+00:00",
+                "estimated": "2026-07-21T02:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Nuevo Dorado International",
+                "timezone": "America/Bogota",
+                "iata": "BOG",
+                "icao": "SKBO",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T05:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "GOL",
+                "iata": "G3",
+                "icao": "GLO"
+            },
+            "flight": {
+                "number": "6658",
+                "iata": "G36658",
+                "icao": "GLO6658",
+                "codeshared": {
+                    "airline_name": "avianca",
+                    "airline_iata": "av",
+                    "airline_icao": "ava",
+                    "flight_number": "9",
+                    "flight_iata": "av9",
+                    "flight_icao": "ava9"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Avignon-Caumont",
+                "timezone": "Europe/Paris",
+                "iata": "AVN",
+                "icao": "LFMV",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T12:00:00+00:00",
+                "estimated": "2026-07-21T12:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "M\u00e9rignac",
+                "timezone": "Europe/Paris",
+                "iata": "BOD",
+                "icao": "LFBD",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T12:59:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Airlec Air Espace",
+                "iata": null,
+                "icao": "ARL"
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": "ARL",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3988E5"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "3",
+                "gate": "19",
+                "delay": null,
+                "scheduled": "2026-07-21T18:35:00+00:00",
+                "estimated": "2026-07-21T18:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Ballina Byron Gateway",
+                "timezone": "Australia/Sydney",
+                "iata": "BNK",
+                "icao": "YBNA",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T20:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "7259",
+                "iata": "NZ7259",
+                "icao": "ANZ7259",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "2037",
+                    "flight_iata": "qf2037",
+                    "flight_icao": "qfa2037"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}

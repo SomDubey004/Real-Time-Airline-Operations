@@ -1,0 +1,526 @@
+{
+    "pagination": {
+        "limit": 10,
+        "offset": 0,
+        "count": 10,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Lohegaon",
+                "timezone": "Asia/Kolkata",
+                "iata": "PNQ",
+                "icao": "VAPO",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T00:05:00+00:00",
+                "estimated": "2026-07-25T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Bangalore International Airport",
+                "timezone": "Asia/Kolkata",
+                "iata": "BLR",
+                "icao": "VOBL",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "8A",
+                "scheduled": "2026-07-25T01:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air India",
+                "iata": "AI",
+                "icao": "AIC"
+            },
+            "flight": {
+                "number": "9931",
+                "iata": "AI9931",
+                "icao": "AIC9931",
+                "codeshared": {
+                    "airline_name": "air india express",
+                    "airline_iata": "ix",
+                    "airline_icao": "axb",
+                    "flight_number": "2681",
+                    "flight_iata": "ix2681",
+                    "flight_icao": "axb2681"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "801799"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T00:30:00+00:00",
+                "estimated": "2026-07-25T00:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Heydar Aliyev International (Bina International)",
+                "timezone": "Asia/Baku",
+                "iata": "GYD",
+                "icao": "UBBB",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-25T04:44:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Silk Way West Airlines",
+                "iata": "7L",
+                "icao": "AZG"
+            },
+            "flight": {
+                "number": "48",
+                "iata": "7L48",
+                "icao": "AZG48",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4243C3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Karratha",
+                "timezone": "Australia/Perth",
+                "iata": "KTA",
+                "icao": "YPKA",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T00:30:00+00:00",
+                "estimated": "2026-07-25T00:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Jandakot",
+                "timezone": "Australia/Perth",
+                "iata": "JAD",
+                "icao": "YPJT",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-25T02:28:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C6D76"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Futuna Island",
+                "timezone": "Pacific/Wallis",
+                "iata": "FUT",
+                "icao": "NLWF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T08:30:00+00:00",
+                "estimated": "2026-07-25T08:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Wallis Island",
+                "timezone": "Pacific/Wallis",
+                "iata": "WLS",
+                "icao": "NLWW",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-25T09:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Oceania",
+                "iata": null,
+                "icao": "RLY"
+            },
+            "flight": {
+                "number": "5061",
+                "iata": null,
+                "icao": "RLY5061",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chhatrapati Shivaji International (Sahar International)",
+                "timezone": "Asia/Kolkata",
+                "iata": "BOM",
+                "icao": "VABB",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T00:55:00+00:00",
+                "estimated": "2026-07-25T00:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-25T06:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "VietJet Air",
+                "iata": "VJ",
+                "icao": "VJC"
+            },
+            "flight": {
+                "number": "761",
+                "iata": "VJ761",
+                "icao": "VJC761",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "885974"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Brisbane International",
+                "timezone": "Australia/Brisbane",
+                "iata": "BNE",
+                "icao": "YBBN",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T00:32:00+00:00",
+                "estimated": "2026-07-25T00:32:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Bundaberg",
+                "timezone": "Australia/Brisbane",
+                "iata": "BDB",
+                "icao": "YBUD",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-24T22:54:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LifeFlight Australia",
+                "iata": null,
+                "icao": "GDY"
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": "GDY",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C3881"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Warrnambool",
+                "timezone": "Australia/Melbourne",
+                "iata": "WMB",
+                "icao": "YWBL",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T00:20:00+00:00",
+                "estimated": "2026-07-25T00:20:00+00:00",
+                "actual": "2026-07-25T00:19:00+00:00",
+                "estimated_runway": "2026-07-25T00:19:00+00:00",
+                "actual_runway": "2026-07-25T00:19:00+00:00"
+            },
+            "arrival": {
+                "airport": "Hamilton",
+                "timezone": "Australia/Melbourne",
+                "iata": "HLT",
+                "icao": "YHML",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-25T00:42:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Babcock",
+                "iata": null,
+                "icao": "RHD"
+            },
+            "flight": {
+                "number": "4",
+                "iata": null,
+                "icao": "RHD4",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C7CC2"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Vladivostok",
+                "timezone": "Asia/Vladivostok",
+                "iata": "VVO",
+                "icao": "UHWW",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T00:15:00+00:00",
+                "estimated": "2026-07-25T00:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Beijing Daxing International Airport",
+                "timezone": "+8",
+                "iata": "PKX",
+                "icao": "ZBAD",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-25T00:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aurora",
+                "iata": "HZ",
+                "icao": "SHU"
+            },
+            "flight": {
+                "number": "5468",
+                "iata": "HZ5468",
+                "icao": "SHU5468",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "151FCC"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T02:35:00+00:00",
+                "estimated": "2026-07-25T02:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Seoul (Incheon)",
+                "timezone": "Asia/Seoul",
+                "iata": "ICN",
+                "icao": "RKSI",
+                "terminal": "1",
+                "gate": "118",
+                "baggage": "12",
+                "scheduled": "2026-07-25T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": null,
+                "iata": "H1",
+                "icao": "H1"
+            },
+            "flight": {
+                "number": "4196",
+                "iata": "H14196",
+                "icao": "H14196",
+                "codeshared": {
+                    "airline_name": "vietjet air",
+                    "airline_iata": "vj",
+                    "airline_icao": "vjc",
+                    "flight_number": "862",
+                    "flight_iata": "vj862",
+                    "flight_icao": "vjc862"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T02:35:00+00:00",
+                "estimated": "2026-07-25T02:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Seoul (Incheon)",
+                "timezone": "Asia/Seoul",
+                "iata": "ICN",
+                "icao": "RKSI",
+                "terminal": "1",
+                "gate": "118",
+                "baggage": "12",
+                "scheduled": "2026-07-25T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Flexflight",
+                "iata": "W2",
+                "icao": "FXT"
+            },
+            "flight": {
+                "number": "4862",
+                "iata": "W24862",
+                "icao": "FXT4862",
+                "codeshared": {
+                    "airline_name": "vietjet air",
+                    "airline_iata": "vj",
+                    "airline_icao": "vjc",
+                    "flight_number": "862",
+                    "flight_iata": "vj862",
+                    "flight_icao": "vjc862"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}

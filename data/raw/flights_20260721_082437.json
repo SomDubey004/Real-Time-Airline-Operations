@@ -1,0 +1,480 @@
+{
+    "pagination": {
+        "limit": 10,
+        "offset": 0,
+        "count": 10,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Jackson Field",
+                "timezone": "Pacific/Port_Moresby",
+                "iata": "POM",
+                "icao": "AYPY",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T09:00:00+00:00",
+                "estimated": "2026-07-22T09:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cairns",
+                "timezone": "Australia/Brisbane",
+                "iata": "CNS",
+                "icao": "YBCS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T12:02:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "8980D5"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sonderborg",
+                "timezone": "Europe/Copenhagen",
+                "iata": "SGD",
+                "icao": "EKSB",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T11:00:00+00:00",
+                "estimated": "2026-07-21T11:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Luton Airport",
+                "timezone": "Europe/London",
+                "iata": "LTN",
+                "icao": "EGGW",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T11:48:00+00:00",
+                "delay": 5,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Jetfly Aviation",
+                "iata": null,
+                "icao": "JFA"
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": "JFA",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4D02BF"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Samburu",
+                "timezone": "Africa/Nairobi",
+                "iata": "UAS",
+                "icao": "HKSB",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T10:15:00+00:00",
+                "estimated": "2026-07-21T10:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": null,
+                "timezone": null,
+                "iata": "MRE",
+                "icao": "HKMS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T11:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": "2661",
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Samburu",
+                "timezone": "Africa/Nairobi",
+                "iata": "UAS",
+                "icao": "HKSB",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T10:15:00+00:00",
+                "estimated": "2026-07-21T10:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": null,
+                "timezone": null,
+                "iata": "MRE",
+                "icao": "HKMS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T11:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Sky Shuttle Helicopters",
+                "iata": "A7",
+                "icao": "HHK"
+            },
+            "flight": {
+                "number": "131",
+                "iata": "A7131",
+                "icao": "HHK131",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": null,
+                "timezone": null,
+                "iata": "MDR",
+                "icao": "HKMZ",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T11:10:00+00:00",
+                "estimated": "2026-07-21T11:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": null,
+                "timezone": null,
+                "iata": "MRE",
+                "icao": "HKMS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T11:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Safarilink Aviation",
+                "iata": "F2",
+                "icao": "XLK"
+            },
+            "flight": {
+                "number": "2",
+                "iata": "F22",
+                "icao": "XLK2",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Amboseli",
+                "timezone": "Africa/Nairobi",
+                "iata": "ASV",
+                "icao": "HKAM",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T09:30:00+00:00",
+                "estimated": "2026-07-21T09:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": null,
+                "timezone": null,
+                "iata": "MRE",
+                "icao": "HKMS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T10:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Mombasa Air Safari",
+                "iata": null,
+                "icao": "RRV"
+            },
+            "flight": {
+                "number": "1",
+                "iata": null,
+                "icao": "RRV1",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Amboseli",
+                "timezone": "Africa/Nairobi",
+                "iata": "ASV",
+                "icao": "HKAM",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T09:15:00+00:00",
+                "estimated": "2026-07-21T09:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": null,
+                "timezone": null,
+                "iata": "MRE",
+                "icao": "HKMS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T10:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Mombasa Air Safari",
+                "iata": null,
+                "icao": "RRV"
+            },
+            "flight": {
+                "number": "6309",
+                "iata": null,
+                "icao": "RRV6309",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": null,
+                "timezone": null,
+                "iata": "MDR",
+                "icao": "HKMZ",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T10:20:00+00:00",
+                "estimated": "2026-07-21T10:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": null,
+                "timezone": null,
+                "iata": "MRE",
+                "icao": "HKMS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T10:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Safarilink Aviation",
+                "iata": "F2",
+                "icao": "XLK"
+            },
+            "flight": {
+                "number": "1",
+                "iata": "F21",
+                "icao": "XLK1",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": null,
+                "timezone": null,
+                "iata": "MDR",
+                "icao": "HKMZ",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T09:45:00+00:00",
+                "estimated": "2026-07-21T09:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": null,
+                "timezone": null,
+                "iata": "MRE",
+                "icao": "HKMS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T09:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Safarilink Aviation",
+                "iata": "F2",
+                "icao": "XLK"
+            },
+            "flight": {
+                "number": "31",
+                "iata": "F231",
+                "icao": "XLK31",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Amboseli",
+                "timezone": "Africa/Nairobi",
+                "iata": "ASV",
+                "icao": "HKAM",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T08:00:00+00:00",
+                "estimated": "2026-07-21T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": null,
+                "timezone": null,
+                "iata": "MRE",
+                "icao": "HKMS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T09:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Sky Shuttle Helicopters",
+                "iata": "A7",
+                "icao": "HHK"
+            },
+            "flight": {
+                "number": "129",
+                "iata": "A7129",
+                "icao": "HHK129",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}

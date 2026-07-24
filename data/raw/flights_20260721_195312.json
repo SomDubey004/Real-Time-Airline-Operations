@@ -1,0 +1,544 @@
+{
+    "pagination": {
+        "limit": 10,
+        "offset": 0,
+        "count": 10,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Ashgabat",
+                "timezone": "Asia/Ashgabat",
+                "iata": "ASB",
+                "icao": "UTAA",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T01:15:00+00:00",
+                "estimated": "2026-07-22T01:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "12",
+                "scheduled": "2026-07-22T05:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Turkmenistan Airlines",
+                "iata": "T5",
+                "icao": "TUA"
+            },
+            "flight": {
+                "number": "531",
+                "iata": "T5531",
+                "icao": "TUA531",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Armidale",
+                "timezone": "Australia/Sydney",
+                "iata": "ARM",
+                "icao": "YARM",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T06:35:00+00:00",
+                "estimated": "2026-07-22T06:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "3",
+                "gate": "19",
+                "baggage": "Q1",
+                "scheduled": "2026-07-22T07:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "2019",
+                "iata": "QF2019",
+                "icao": "QFA2019",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Armidale",
+                "timezone": "Australia/Sydney",
+                "iata": "ARM",
+                "icao": "YARM",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T06:35:00+00:00",
+                "estimated": "2026-07-22T06:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "3",
+                "gate": "19",
+                "baggage": "Q1",
+                "scheduled": "2026-07-22T07:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "7015",
+                "iata": "NZ7015",
+                "icao": "ANZ7015",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "2019",
+                    "flight_iata": "qf2019",
+                    "flight_icao": "qfa2019"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Armidale",
+                "timezone": "Australia/Sydney",
+                "iata": "ARM",
+                "icao": "YARM",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T06:35:00+00:00",
+                "estimated": "2026-07-22T06:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "3",
+                "gate": "19",
+                "baggage": "Q1",
+                "scheduled": "2026-07-22T07:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Emirates",
+                "iata": "EK",
+                "icao": "UAE"
+            },
+            "flight": {
+                "number": "5154",
+                "iata": "EK5154",
+                "icao": "UAE5154",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "2019",
+                    "flight_iata": "qf2019",
+                    "flight_icao": "qfa2019"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "1",
+                "gate": "D38",
+                "delay": null,
+                "scheduled": "2026-07-22T00:15:00+00:00",
+                "estimated": "2026-07-22T00:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sardar Vallabhbhai Patel International Airport",
+                "timezone": "Asia/Kolkata",
+                "iata": "AMD",
+                "icao": "VAAH",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "2",
+                "scheduled": "2026-07-22T01:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air France",
+                "iata": "AF",
+                "icao": "AFR"
+            },
+            "flight": {
+                "number": "3774",
+                "iata": "AF3774",
+                "icao": "AFR3774",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "6261",
+                    "flight_iata": "6e6261",
+                    "flight_icao": "igo6261"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "8014E8"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "1",
+                "gate": "D38",
+                "delay": null,
+                "scheduled": "2026-07-22T00:15:00+00:00",
+                "estimated": "2026-07-22T00:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sardar Vallabhbhai Patel International Airport",
+                "timezone": "Asia/Kolkata",
+                "iata": "AMD",
+                "icao": "VAAH",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "2",
+                "scheduled": "2026-07-22T01:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Atlantic",
+                "iata": "VS",
+                "icao": "VIR"
+            },
+            "flight": {
+                "number": "8683",
+                "iata": "VS8683",
+                "icao": "VIR8683",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "6261",
+                    "flight_iata": "6e6261",
+                    "flight_icao": "igo6261"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "8014E8"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "1",
+                "gate": "D38",
+                "delay": null,
+                "scheduled": "2026-07-22T00:15:00+00:00",
+                "estimated": "2026-07-22T00:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sardar Vallabhbhai Patel International Airport",
+                "timezone": "Asia/Kolkata",
+                "iata": "AMD",
+                "icao": "VAAH",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "2",
+                "scheduled": "2026-07-22T01:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "5343",
+                "iata": "QF5343",
+                "icao": "QFA5343",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "6261",
+                    "flight_iata": "6e6261",
+                    "flight_icao": "igo6261"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "8014E8"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "1",
+                "gate": "D38",
+                "delay": null,
+                "scheduled": "2026-07-22T00:15:00+00:00",
+                "estimated": "2026-07-22T00:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sardar Vallabhbhai Patel International Airport",
+                "timezone": "Asia/Kolkata",
+                "iata": "AMD",
+                "icao": "VAAH",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "2",
+                "scheduled": "2026-07-22T01:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Japan Airlines",
+                "iata": "JL",
+                "icao": "JTL"
+            },
+            "flight": {
+                "number": "9042",
+                "iata": "JL9042",
+                "icao": "JTL9042",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "6261",
+                    "flight_iata": "6e6261",
+                    "flight_icao": "igo6261"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "8014E8"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "1",
+                "gate": "D38",
+                "delay": null,
+                "scheduled": "2026-07-22T00:15:00+00:00",
+                "estimated": "2026-07-22T00:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sardar Vallabhbhai Patel International Airport",
+                "timezone": "Asia/Kolkata",
+                "iata": "AMD",
+                "icao": "VAAH",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "2",
+                "scheduled": "2026-07-22T01:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9174",
+                "iata": "AA9174",
+                "icao": "AAL9174",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "6261",
+                    "flight_iata": "6e6261",
+                    "flight_icao": "igo6261"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "8014E8"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Queen Alia International",
+                "timezone": "Asia/Amman",
+                "iata": "AMM",
+                "icao": "OJAI",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T00:01:00+00:00",
+                "estimated": "2026-07-22T00:01:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "6",
+                "scheduled": "2026-07-22T04:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Royal Jordanian",
+                "iata": "RJ",
+                "icao": "RJA"
+            },
+            "flight": {
+                "number": "612",
+                "iata": "RJ612",
+                "icao": "RJA612",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}

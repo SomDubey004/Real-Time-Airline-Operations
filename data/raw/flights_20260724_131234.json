@@ -1,0 +1,557 @@
+{
+    "pagination": {
+        "limit": 10,
+        "offset": 0,
+        "count": 10,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Brisbane International",
+                "timezone": "Australia/Brisbane",
+                "iata": "BNE",
+                "icao": "YBBN",
+                "terminal": "I",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T00:05:00+00:00",
+                "estimated": "2026-07-25T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Hong Kong International",
+                "timezone": "Asia/Hong_Kong",
+                "iata": "HKG",
+                "icao": "VHHH",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-25T06:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Cathay Pacific",
+                "iata": "CX",
+                "icao": "CPA"
+            },
+            "flight": {
+                "number": "156",
+                "iata": "CX156",
+                "icao": "CPA156",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Gold Coast (coolangatta)",
+                "timezone": "Australia/Brisbane",
+                "iata": "OOL",
+                "icao": "YBCG",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T15:45:00+00:00",
+                "estimated": "2026-07-25T15:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Toowoomba Wellcamp Airport\r\n",
+                "timezone": null,
+                "iata": "WTB",
+                "icao": "YBWW",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-24T16:34:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C79BB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Cairns",
+                "timezone": "Australia/Brisbane",
+                "iata": "CNS",
+                "icao": "YBCS",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-25T09:40:00+00:00",
+                "estimated": "2026-07-25T09:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cairns",
+                "timezone": "Australia/Brisbane",
+                "iata": "CNS",
+                "icao": "YBCS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-24T12:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C12C4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-24",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Chengdu Tianfu International Airport",
+                "timezone": "Asia/Chongqing",
+                "iata": "TFU",
+                "icao": "ZUTF",
+                "terminal": "2",
+                "gate": "210",
+                "delay": null,
+                "scheduled": "2026-07-24T15:30:00+00:00",
+                "estimated": "2026-07-24T15:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shenzhen",
+                "timezone": "Asia/Shanghai",
+                "iata": "SZX",
+                "icao": "ZGSZ",
+                "terminal": "T3",
+                "gate": null,
+                "baggage": "7",
+                "scheduled": "2026-07-24T18:00:00+00:00",
+                "delay": 12,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Xiamen Air",
+                "iata": "MF",
+                "icao": "CXA"
+            },
+            "flight": {
+                "number": "7492",
+                "iata": "MF7492",
+                "icao": "CXA7492",
+                "codeshared": {
+                    "airline_name": "china eastern airlines",
+                    "airline_iata": "mu",
+                    "airline_icao": "ces",
+                    "flight_number": "6371",
+                    "flight_iata": "mu6371",
+                    "flight_icao": "ces6371"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "780EBC"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-24",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Chengdu Tianfu International Airport",
+                "timezone": "Asia/Chongqing",
+                "iata": "TFU",
+                "icao": "ZUTF",
+                "terminal": "2",
+                "gate": "210",
+                "delay": null,
+                "scheduled": "2026-07-24T15:30:00+00:00",
+                "estimated": "2026-07-24T15:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shenzhen",
+                "timezone": "Asia/Shanghai",
+                "iata": "SZX",
+                "icao": "ZGSZ",
+                "terminal": "T3",
+                "gate": null,
+                "baggage": "7",
+                "scheduled": "2026-07-24T18:00:00+00:00",
+                "delay": 12,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China United Airlines",
+                "iata": "KN",
+                "icao": "CUA"
+            },
+            "flight": {
+                "number": "6275",
+                "iata": "KN6275",
+                "icao": "CUA6275",
+                "codeshared": {
+                    "airline_name": "china eastern airlines",
+                    "airline_iata": "mu",
+                    "airline_icao": "ces",
+                    "flight_number": "6371",
+                    "flight_iata": "mu6371",
+                    "flight_icao": "ces6371"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "780EBC"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-24",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Kzyl-Orda",
+                "timezone": "Asia/Qyzylorda",
+                "iata": "KZO",
+                "icao": "UAOO",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-24T12:15:00+00:00",
+                "estimated": "2026-07-24T12:15:00+00:00",
+                "actual": "2026-07-24T12:02:00+00:00",
+                "estimated_runway": "2026-07-24T12:02:00+00:00",
+                "actual_runway": "2026-07-24T12:02:00+00:00"
+            },
+            "arrival": {
+                "airport": null,
+                "timezone": null,
+                "iata": "NQZ",
+                "icao": "UACC",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-24T13:50:00+00:00",
+                "delay": null,
+                "estimated": "2026-07-24T13:06:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "FlyArystan",
+                "iata": "FS",
+                "icao": "AYN"
+            },
+            "flight": {
+                "number": "7316",
+                "iata": "FS7316",
+                "icao": "AYN7316",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4CADD5"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Lanzhou Zhongchuan Airport",
+                "timezone": null,
+                "iata": "LHW",
+                "icao": "ZLLL",
+                "terminal": "T3",
+                "gate": "D58",
+                "delay": null,
+                "scheduled": "2026-07-24T19:20:00+00:00",
+                "estimated": "2026-07-24T19:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Beijing Daxing International Airport",
+                "timezone": "+8",
+                "iata": "PKX",
+                "icao": "ZBAD",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-24T21:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Xiamen Air",
+                "iata": "MF",
+                "icao": "CXA"
+            },
+            "flight": {
+                "number": "3239",
+                "iata": "MF3239",
+                "icao": "CXA3239",
+                "codeshared": {
+                    "airline_name": "china eastern airlines",
+                    "airline_iata": "mu",
+                    "airline_icao": "ces",
+                    "flight_number": "2417",
+                    "flight_iata": "mu2417",
+                    "flight_icao": "ces2417"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "780CA1"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Lanzhou Zhongchuan Airport",
+                "timezone": null,
+                "iata": "LHW",
+                "icao": "ZLLL",
+                "terminal": "T3",
+                "gate": "D58",
+                "delay": null,
+                "scheduled": "2026-07-24T19:20:00+00:00",
+                "estimated": "2026-07-24T19:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Beijing Daxing International Airport",
+                "timezone": "+8",
+                "iata": "PKX",
+                "icao": "ZBAD",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-24T21:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China United Airlines",
+                "iata": "KN",
+                "icao": "CUA"
+            },
+            "flight": {
+                "number": "6041",
+                "iata": "KN6041",
+                "icao": "CUA6041",
+                "codeshared": {
+                    "airline_name": "china eastern airlines",
+                    "airline_iata": "mu",
+                    "airline_icao": "ces",
+                    "flight_number": "2417",
+                    "flight_iata": "mu2417",
+                    "flight_icao": "ces2417"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "780CA1"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Lanzhou Zhongchuan Airport",
+                "timezone": null,
+                "iata": "LHW",
+                "icao": "ZLLL",
+                "terminal": "T3",
+                "gate": "C56",
+                "delay": null,
+                "scheduled": "2026-07-24T19:00:00+00:00",
+                "estimated": "2026-07-24T19:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kunming",
+                "timezone": "Asia/Shanghai",
+                "iata": "KMG",
+                "icao": "ZPPP",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-24T21:15:00+00:00",
+                "delay": 60,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Xiamen Air",
+                "iata": "MF",
+                "icao": "CXA"
+            },
+            "flight": {
+                "number": "3257",
+                "iata": "MF3257",
+                "icao": "CXA3257",
+                "codeshared": {
+                    "airline_name": "china eastern airlines",
+                    "airline_iata": "mu",
+                    "airline_icao": "ces",
+                    "flight_number": "2449",
+                    "flight_iata": "mu2449",
+                    "flight_icao": "ces2449"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "78119A"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Lanzhou Zhongchuan Airport",
+                "timezone": null,
+                "iata": "LHW",
+                "icao": "ZLLL",
+                "terminal": "T3",
+                "gate": "C56",
+                "delay": null,
+                "scheduled": "2026-07-24T19:00:00+00:00",
+                "estimated": "2026-07-24T19:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kunming",
+                "timezone": "Asia/Shanghai",
+                "iata": "KMG",
+                "icao": "ZPPP",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-24T21:15:00+00:00",
+                "delay": 60,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Express Airlines",
+                "iata": "G5",
+                "icao": "HXA"
+            },
+            "flight": {
+                "number": "8569",
+                "iata": "G58569",
+                "icao": "HXA8569",
+                "codeshared": {
+                    "airline_name": "china eastern airlines",
+                    "airline_iata": "mu",
+                    "airline_icao": "ces",
+                    "flight_number": "2449",
+                    "flight_iata": "mu2449",
+                    "flight_icao": "ces2449"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "78119A"
+            },
+            "live": null
+        }
+    ]
+}

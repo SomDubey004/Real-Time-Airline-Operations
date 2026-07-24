@@ -26,5 +26,5 @@ DB_PASSWORD = "123456"
 
 API_URL = "https://api.aviationstack.com/v1/flights"
 API_TIMEOUT = 10
-
 API_KEY = os.getenv("AVIATIONSTACK_API_KEY")
+API_LIMIT = 10

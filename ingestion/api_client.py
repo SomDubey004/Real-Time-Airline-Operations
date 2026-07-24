@@ -7,7 +7,8 @@ Handles communication with external APIs.
 import requests
 from requests.exceptions import RequestException
 
-from config.config import API_KEY, API_URL, API_TIMEOUT
+from config.config import (API_KEY, API_URL, API_TIMEOUT, API_LIMIT)
+from utils import logger
 
 
 class APIClient:
@@ -19,10 +20,8 @@ class APIClient:
 
         params = {
             "access_key": API_KEY,
-            "limit": 10
+            "limit": API_LIMIT
         }
-
-        print("Requesting live flight data...")
 
         try:
 
@@ -34,12 +33,10 @@ class APIClient:
 
             response.raise_for_status()
 
-            print("Flight data received successfully.")
-
             return response.json()
 
         except RequestException as e:
 
-            print(f"API Error: {e}")
+            logger.error(f"API Error: {e}")
 
             return None

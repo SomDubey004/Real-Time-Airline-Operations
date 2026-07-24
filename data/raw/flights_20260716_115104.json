@@ -1,0 +1,550 @@
+{
+    "pagination": {
+        "limit": 10,
+        "offset": 0,
+        "count": 10,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "10",
+                "delay": null,
+                "scheduled": "2026-07-17T00:25:00+00:00",
+                "estimated": "2026-07-17T00:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-17T07:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Malaysia Airlines",
+                "iata": "MH",
+                "icao": "MAS"
+            },
+            "flight": {
+                "number": "132",
+                "iata": "MH132",
+                "icao": "MAS132",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Canberra",
+                "timezone": "Australia/Sydney",
+                "iata": "CBR",
+                "icao": "YSCB",
+                "terminal": null,
+                "gate": null,
+                "delay": 38,
+                "scheduled": "2026-07-17T01:55:00+00:00",
+                "estimated": "2026-07-17T01:55:00+00:00",
+                "actual": "2026-07-16T14:16:00+00:00",
+                "estimated_runway": "2026-07-16T14:16:00+00:00",
+                "actual_runway": "2026-07-16T14:16:00+00:00"
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-16T14:29:00+00:00",
+                "delay": 38,
+                "estimated": "2026-07-16T14:58:00+00:00",
+                "actual": "2026-07-16T15:07:00+00:00",
+                "estimated_runway": "2026-07-16T15:07:00+00:00",
+                "actual_runway": "2026-07-16T15:07:00+00:00"
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C01C2"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": null,
+                "timezone": null,
+                "iata": "SBR",
+                "icao": "YSII",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-17T12:50:00+00:00",
+                "estimated": "2026-07-17T12:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Horn Island",
+                "timezone": "Australia/Brisbane",
+                "iata": "HID",
+                "icao": "YHID",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-16T13:21:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Hinterland Aviation",
+                "iata": "OI",
+                "icao": "HND"
+            },
+            "flight": {
+                "number": "454",
+                "iata": "OI454",
+                "icao": "HND454",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C448C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Boigu Island",
+                "timezone": "Australia/Brisbane",
+                "iata": "GIC",
+                "icao": "YBOI",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-17T12:10:00+00:00",
+                "estimated": "2026-07-17T12:10:00+00:00",
+                "actual": "2026-07-16T11:52:00+00:00",
+                "estimated_runway": "2026-07-16T11:52:00+00:00",
+                "actual_runway": "2026-07-16T11:52:00+00:00"
+            },
+            "arrival": {
+                "airport": null,
+                "timezone": null,
+                "iata": "SBR",
+                "icao": "YSII",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-16T12:21:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": "2026-07-16T12:05:00+00:00",
+                "estimated_runway": "2026-07-16T12:05:00+00:00",
+                "actual_runway": "2026-07-16T12:05:00+00:00"
+            },
+            "airline": {
+                "name": "Hinterland Aviation",
+                "iata": "OI",
+                "icao": "HND"
+            },
+            "flight": {
+                "number": "454",
+                "iata": "OI454",
+                "icao": "HND454",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C448C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Horn Island",
+                "timezone": "Australia/Brisbane",
+                "iata": "HID",
+                "icao": "YHID",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-17T11:15:00+00:00",
+                "estimated": "2026-07-17T11:15:00+00:00",
+                "actual": "2026-07-16T11:06:00+00:00",
+                "estimated_runway": "2026-07-16T11:06:00+00:00",
+                "actual_runway": "2026-07-16T11:06:00+00:00"
+            },
+            "arrival": {
+                "airport": "Boigu Island",
+                "timezone": "Australia/Brisbane",
+                "iata": "GIC",
+                "icao": "YBOI",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-16T11:46:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": "2026-07-16T11:37:00+00:00",
+                "estimated_runway": "2026-07-16T11:37:00+00:00",
+                "actual_runway": "2026-07-16T11:37:00+00:00"
+            },
+            "airline": {
+                "name": "Hinterland Aviation",
+                "iata": "OI",
+                "icao": "HND"
+            },
+            "flight": {
+                "number": "454",
+                "iata": "OI454",
+                "icao": "HND454",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C448C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-16",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "1",
+                "gate": "D9",
+                "delay": null,
+                "scheduled": "2026-07-16T16:00:00+00:00",
+                "estimated": "2026-07-16T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Netaji Subhas Chandra",
+                "timezone": "Asia/Kolkata",
+                "iata": "CCU",
+                "icao": "VECC",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-16T18:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Atlantic",
+                "iata": "VS",
+                "icao": "VIR"
+            },
+            "flight": {
+                "number": "8752",
+                "iata": "VS8752",
+                "icao": "VIR8752",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "6415",
+                    "flight_iata": "6e6415",
+                    "flight_icao": "igo6415"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "801742"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-16",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "1",
+                "gate": "D9",
+                "delay": null,
+                "scheduled": "2026-07-16T16:00:00+00:00",
+                "estimated": "2026-07-16T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Netaji Subhas Chandra",
+                "timezone": "Asia/Kolkata",
+                "iata": "CCU",
+                "icao": "VECC",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-16T18:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "5322",
+                "iata": "QF5322",
+                "icao": "QFA5322",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "6415",
+                    "flight_iata": "6e6415",
+                    "flight_icao": "igo6415"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "801742"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-16",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "1",
+                "gate": "D9",
+                "delay": null,
+                "scheduled": "2026-07-16T16:00:00+00:00",
+                "estimated": "2026-07-16T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Netaji Subhas Chandra",
+                "timezone": "Asia/Kolkata",
+                "iata": "CCU",
+                "icao": "VECC",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-16T18:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Malaysia Airlines",
+                "iata": "MH",
+                "icao": "MAS"
+            },
+            "flight": {
+                "number": "5262",
+                "iata": "MH5262",
+                "icao": "MAS5262",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "6415",
+                    "flight_iata": "6e6415",
+                    "flight_icao": "igo6415"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "801742"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-16",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "1",
+                "gate": "D9",
+                "delay": null,
+                "scheduled": "2026-07-16T16:00:00+00:00",
+                "estimated": "2026-07-16T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Netaji Subhas Chandra",
+                "timezone": "Asia/Kolkata",
+                "iata": "CCU",
+                "icao": "VECC",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-16T18:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Japan Airlines",
+                "iata": "JL",
+                "icao": "JTL"
+            },
+            "flight": {
+                "number": "9089",
+                "iata": "JL9089",
+                "icao": "JTL9089",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "6415",
+                    "flight_iata": "6e6415",
+                    "flight_icao": "igo6415"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "801742"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-16",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Bangalore International Airport",
+                "timezone": "Asia/Kolkata",
+                "iata": "BLR",
+                "icao": "VOBL",
+                "terminal": "1",
+                "gate": "28",
+                "delay": null,
+                "scheduled": "2026-07-16T15:05:00+00:00",
+                "estimated": "2026-07-16T15:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Netaji Subhas Chandra",
+                "timezone": "Asia/Kolkata",
+                "iata": "CCU",
+                "icao": "VECC",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-16T17:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Atlantic",
+                "iata": "VS",
+                "icao": "VIR"
+            },
+            "flight": {
+                "number": "8360",
+                "iata": "VS8360",
+                "icao": "VIR8360",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "6572",
+                    "flight_iata": "6e6572",
+                    "flight_icao": "igo6572"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "80148D"
+            },
+            "live": null
+        }
+    ]
+}

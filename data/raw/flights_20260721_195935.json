@@ -1,0 +1,496 @@
+{
+    "pagination": {
+        "limit": 10,
+        "offset": 0,
+        "count": 10,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Cam Ranh",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "CXR",
+                "icao": "VVCR",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T03:10:00+00:00",
+                "estimated": "2026-07-22T03:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Gimhae",
+                "timezone": "Asia/Seoul",
+                "iata": "PUS",
+                "icao": "RKPK",
+                "terminal": "I",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-22T09:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "VietJet Air",
+                "iata": "VJ",
+                "icao": "VJC"
+            },
+            "flight": {
+                "number": "918",
+                "iata": "VJ918",
+                "icao": "VJC918",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Cam Ranh",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "CXR",
+                "icao": "VVCR",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T03:10:00+00:00",
+                "estimated": "2026-07-22T03:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Gimhae",
+                "timezone": "Asia/Seoul",
+                "iata": "PUS",
+                "icao": "RKPK",
+                "terminal": "I",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-22T09:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Flexflight",
+                "iata": "W2",
+                "icao": "FXT"
+            },
+            "flight": {
+                "number": "4918",
+                "iata": "W24918",
+                "icao": "FXT4918",
+                "codeshared": {
+                    "airline_name": "vietjet air",
+                    "airline_iata": "vj",
+                    "airline_icao": "vjc",
+                    "flight_number": "918",
+                    "flight_iata": "vj918",
+                    "flight_icao": "vjc918"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Cam Ranh",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "CXR",
+                "icao": "VVCR",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T03:10:00+00:00",
+                "estimated": "2026-07-22T03:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Gimhae",
+                "timezone": "Asia/Seoul",
+                "iata": "PUS",
+                "icao": "RKPK",
+                "terminal": "I",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-22T09:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": null,
+                "iata": "A1",
+                "icao": "A1"
+            },
+            "flight": {
+                "number": "2918",
+                "iata": "A12918",
+                "icao": "A12918",
+                "codeshared": {
+                    "airline_name": "vietjet air",
+                    "airline_iata": "vj",
+                    "airline_icao": "vjc",
+                    "flight_number": "918",
+                    "flight_iata": "vj918",
+                    "flight_icao": "vjc918"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Cam Ranh",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "CXR",
+                "icao": "VVCR",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T03:10:00+00:00",
+                "estimated": "2026-07-22T03:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Gimhae",
+                "timezone": "Asia/Seoul",
+                "iata": "PUS",
+                "icao": "RKPK",
+                "terminal": "I",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-22T09:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": null,
+                "iata": "H1",
+                "icao": "H1"
+            },
+            "flight": {
+                "number": "5133",
+                "iata": "H15133",
+                "icao": "H15133",
+                "codeshared": {
+                    "airline_name": "vietjet air",
+                    "airline_iata": "vj",
+                    "airline_icao": "vjc",
+                    "flight_number": "918",
+                    "flight_iata": "vj918",
+                    "flight_icao": "vjc918"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Diosdado Macapagal International (Clark International)",
+                "timezone": "Asia/Manila",
+                "iata": "CRK",
+                "icao": "RPLC",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T04:45:00+00:00",
+                "estimated": "2026-07-22T04:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Narita International Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "NRT",
+                "icao": "RJAA",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-22T10:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Cebu Pacific",
+                "iata": "5J",
+                "icao": "CEB"
+            },
+            "flight": {
+                "number": "5068",
+                "iata": "5J5068",
+                "icao": "CEB5068",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Diosdado Macapagal International (Clark International)",
+                "timezone": "Asia/Manila",
+                "iata": "CRK",
+                "icao": "RPLC",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T04:40:00+00:00",
+                "estimated": "2026-07-22T04:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": null,
+                "timezone": null,
+                "iata": "ENI",
+                "icao": "RPEN",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-22T06:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "AirSWIFT",
+                "iata": "T6",
+                "icao": "ATX"
+            },
+            "flight": {
+                "number": "5209",
+                "iata": "T65209",
+                "icao": "ATX5209",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Diosdado Macapagal International (Clark International)",
+                "timezone": "Asia/Manila",
+                "iata": "CRK",
+                "icao": "RPLC",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T04:40:00+00:00",
+                "estimated": "2026-07-22T04:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": null,
+                "timezone": null,
+                "iata": "ENI",
+                "icao": "RPEN",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-22T06:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Cebgo",
+                "iata": "DG",
+                "icao": "SRQ"
+            },
+            "flight": {
+                "number": "5209",
+                "iata": "DG5209",
+                "icao": "SRQ5209",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Diosdado Macapagal International (Clark International)",
+                "timezone": "Asia/Manila",
+                "iata": "CRK",
+                "icao": "RPLC",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T02:10:00+00:00",
+                "estimated": "2026-07-22T02:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-22T11:14:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "8096",
+                "iata": "QR8096",
+                "icao": "QTR8096",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "06A30B"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Ashgabat",
+                "timezone": "Asia/Ashgabat",
+                "iata": "ASB",
+                "icao": "UTAA",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T01:15:00+00:00",
+                "estimated": "2026-07-22T01:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "12",
+                "scheduled": "2026-07-22T05:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Turkmenistan Airlines",
+                "iata": "T5",
+                "icao": "TUA"
+            },
+            "flight": {
+                "number": "531",
+                "iata": "T5531",
+                "icao": "TUA531",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Armidale",
+                "timezone": "Australia/Sydney",
+                "iata": "ARM",
+                "icao": "YARM",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-22T06:35:00+00:00",
+                "estimated": "2026-07-22T06:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "3",
+                "gate": "19",
+                "baggage": "Q1",
+                "scheduled": "2026-07-22T07:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "2019",
+                "iata": "QF2019",
+                "icao": "QFA2019",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}

@@ -1,0 +1,487 @@
+{
+    "pagination": {
+        "limit": 10,
+        "offset": 0,
+        "count": 10,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-23",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-23T03:05:00+00:00",
+                "estimated": "2026-07-23T03:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Hong Kong International",
+                "timezone": "Asia/Hong_Kong",
+                "iata": "HKG",
+                "icao": "VHHH",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-23T10:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Emirates",
+                "iata": "EK",
+                "icao": "UAE"
+            },
+            "flight": {
+                "number": "9618",
+                "iata": "EK9618",
+                "icao": "UAE9618",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-23",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Townsville International",
+                "timezone": "Australia/Brisbane",
+                "iata": "TSV",
+                "icao": "YBTL",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-23T00:45:00+00:00",
+                "estimated": "2026-07-23T00:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Mackay",
+                "timezone": "Australia/Brisbane",
+                "iata": "MKY",
+                "icao": "YBMK",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-23T01:26:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C19BE"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-23",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-23T01:05:00+00:00",
+                "estimated": "2026-07-23T01:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Brisbane International",
+                "timezone": "Australia/Brisbane",
+                "iata": "BNE",
+                "icao": "YBBN",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-23T01:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "7420",
+                "iata": "QF7420",
+                "icao": "QFA7420",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-23",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "1",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-23T00:45:00+00:00",
+                "estimated": "2026-07-23T00:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Melbourne - Tullamarine Airport",
+                "timezone": "Australia/Melbourne",
+                "iata": "MEL",
+                "icao": "YMML",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-23T02:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "7488",
+                "iata": "QF7488",
+                "icao": "QFA7488",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-23",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "1",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-23T00:30:00+00:00",
+                "estimated": "2026-07-23T00:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Brisbane International",
+                "timezone": "Australia/Brisbane",
+                "iata": "BNE",
+                "icao": "YBBN",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-23T02:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "7495",
+                "iata": "QF7495",
+                "icao": "QFA7495",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-23",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-23T00:25:00+00:00",
+                "estimated": "2026-07-23T00:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Melbourne - Tullamarine Airport",
+                "timezone": "Australia/Melbourne",
+                "iata": "MEL",
+                "icao": "YMML",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-23T02:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "7445",
+                "iata": "QF7445",
+                "icao": "QFA7445",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-23",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Melbourne - Tullamarine Airport",
+                "timezone": "Australia/Melbourne",
+                "iata": "MEL",
+                "icao": "YMML",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-23T01:00:00+00:00",
+                "estimated": "2026-07-23T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Brisbane International",
+                "timezone": "Australia/Brisbane",
+                "iata": "BNE",
+                "icao": "YBBN",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-23T02:46:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Team Global Express",
+                "iata": null,
+                "icao": "TFX"
+            },
+            "flight": {
+                "number": "23",
+                "iata": null,
+                "icao": "TFX23",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C82AE4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-23",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Kansai International",
+                "timezone": "Asia/Tokyo",
+                "iata": "KIX",
+                "icao": "RJBB",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-23T00:00:00+00:00",
+                "estimated": "2026-07-23T00:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Hangzhou",
+                "timezone": "Asia/Shanghai",
+                "iata": "HGH",
+                "icao": "ZSHC",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-23T01:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SF Airlines",
+                "iata": "O3",
+                "icao": "CSS"
+            },
+            "flight": {
+                "number": "272",
+                "iata": "O3272",
+                "icao": "CSS272",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-23",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Seoul (Incheon)",
+                "timezone": "Asia/Seoul",
+                "iata": "ICN",
+                "icao": "RKSI",
+                "terminal": "1",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-23T00:05:00+00:00",
+                "estimated": "2026-07-23T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "New Ulaanbaator International Airport",
+                "timezone": null,
+                "iata": "UBN",
+                "icao": "ZMCK",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-23T02:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "MIAT Mongolian Airlines",
+                "iata": "OM",
+                "icao": "MGL"
+            },
+            "flight": {
+                "number": "308",
+                "iata": "OM308",
+                "icao": "MGL308",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-23",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Seoul (Incheon)",
+                "timezone": "Asia/Seoul",
+                "iata": "ICN",
+                "icao": "RKSI",
+                "terminal": "1",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-23T00:05:00+00:00",
+                "estimated": "2026-07-23T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "New Ulaanbaator International Airport",
+                "timezone": null,
+                "iata": "UBN",
+                "icao": "ZMCK",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-23T02:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Korean Air",
+                "iata": "KE",
+                "icao": "KAL"
+            },
+            "flight": {
+                "number": "5649",
+                "iata": "KE5649",
+                "icao": "KAL5649",
+                "codeshared": {
+                    "airline_name": "miat mongolian airlines",
+                    "airline_iata": "om",
+                    "airline_icao": "mgl",
+                    "flight_number": "308",
+                    "flight_iata": "om308",
+                    "flight_icao": "mgl308"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}

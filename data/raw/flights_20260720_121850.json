@@ -1,0 +1,523 @@
+{
+    "pagination": {
+        "limit": 10,
+        "offset": 0,
+        "count": 10,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "8",
+                "delay": null,
+                "scheduled": "2026-07-21T00:25:00+00:00",
+                "estimated": "2026-07-21T00:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-21T07:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Malaysia Airlines",
+                "iata": "MH",
+                "icao": "MAS"
+            },
+            "flight": {
+                "number": "132",
+                "iata": "MH132",
+                "icao": "MAS132",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": null,
+                "timezone": null,
+                "iata": "DGD",
+                "icao": "YDGA",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T08:05:00+00:00",
+                "estimated": "2026-07-21T08:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Perth International",
+                "timezone": "Australia/Perth",
+                "iata": "PER",
+                "icao": "YPPH",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-20T14:23:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C75E1"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Mount Magnet",
+                "timezone": "Australia/Perth",
+                "iata": "MMG",
+                "icao": "YMOG",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T08:30:00+00:00",
+                "estimated": "2026-07-21T08:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Perth International",
+                "timezone": "Australia/Perth",
+                "iata": "PER",
+                "icao": "YPPH",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-20T13:06:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C7539"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Naracoorte",
+                "timezone": "Australia/Adelaide",
+                "iata": "NAC",
+                "icao": "YNRC",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T17:00:00+00:00",
+                "estimated": "2026-07-21T17:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Adelaide International Airport",
+                "timezone": "Australia/Adelaide",
+                "iata": "ADL",
+                "icao": "YPAD",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-20T18:03:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C7AD0"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Forest Hill",
+                "timezone": "Australia/Sydney",
+                "iata": "WGA",
+                "icao": "YSWG",
+                "terminal": null,
+                "gate": null,
+                "delay": 6,
+                "scheduled": "2026-07-21T07:00:00+00:00",
+                "estimated": "2026-07-21T07:00:00+00:00",
+                "actual": "2026-07-20T11:01:00+00:00",
+                "estimated_runway": "2026-07-20T11:01:00+00:00",
+                "actual_runway": "2026-07-20T11:01:00+00:00"
+            },
+            "arrival": {
+                "airport": "Albury",
+                "timezone": "Australia/Sydney",
+                "iata": "ABX",
+                "icao": "YMAY",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-20T11:18:00+00:00",
+                "delay": 6,
+                "estimated": null,
+                "actual": "2026-07-20T11:24:00+00:00",
+                "estimated_runway": "2026-07-20T11:24:00+00:00",
+                "actual_runway": "2026-07-20T11:24:00+00:00"
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C2DE1"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Naracoorte",
+                "timezone": "Australia/Adelaide",
+                "iata": "NAC",
+                "icao": "YNRC",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-21T09:20:00+00:00",
+                "estimated": "2026-07-21T09:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Mount Gambier",
+                "timezone": "Australia/Adelaide",
+                "iata": "MGB",
+                "icao": "YMTG",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-20T10:09:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C7AD0"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-20",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "C20",
+                "delay": null,
+                "scheduled": "2026-07-20T16:00:00+00:00",
+                "estimated": "2026-07-20T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-20T17:15:00+00:00",
+                "delay": 20,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "8534",
+                "iata": "SQ8534",
+                "icao": "SIA8534",
+                "codeshared": {
+                    "airline_name": "scoot",
+                    "airline_iata": "tr",
+                    "airline_icao": "tgw",
+                    "flight_number": "516",
+                    "flight_iata": "tr516",
+                    "flight_icao": "tgw516"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-20",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "C20",
+                "delay": null,
+                "scheduled": "2026-07-20T16:00:00+00:00",
+                "estimated": "2026-07-20T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-20T17:15:00+00:00",
+                "delay": 20,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "5940",
+                "iata": "AC5940",
+                "icao": "ACA5940",
+                "codeshared": {
+                    "airline_name": "scoot",
+                    "airline_iata": "tr",
+                    "airline_icao": "tgw",
+                    "flight_number": "516",
+                    "flight_iata": "tr516",
+                    "flight_icao": "tgw516"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-20",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "C17",
+                "delay": null,
+                "scheduled": "2026-07-20T16:00:00+00:00",
+                "estimated": "2026-07-20T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "2",
+                "gate": "P3",
+                "baggage": null,
+                "scheduled": "2026-07-20T17:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "8582",
+                "iata": "SQ8582",
+                "icao": "SIA8582",
+                "codeshared": {
+                    "airline_name": "scoot",
+                    "airline_iata": "tr",
+                    "airline_icao": "tgw",
+                    "flight_number": "472",
+                    "flight_iata": "tr472",
+                    "flight_icao": "tgw472"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-20",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "C18",
+                "delay": null,
+                "scheduled": "2026-07-20T16:00:00+00:00",
+                "estimated": "2026-07-20T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Chengdu Tianfu International Airport",
+                "timezone": "Asia/Chongqing",
+                "iata": "TFU",
+                "icao": "ZUTF",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-20T20:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "5880",
+                "iata": "SQ5880",
+                "icao": "SIA5880",
+                "codeshared": {
+                    "airline_name": "air china",
+                    "airline_iata": "ca",
+                    "airline_icao": "cca",
+                    "flight_number": "404",
+                    "flight_iata": "ca404",
+                    "flight_icao": "cca404"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}

@@ -1,0 +1,504 @@
+{
+    "pagination": {
+        "limit": 10,
+        "offset": 0,
+        "count": 10,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Krasnojarsk",
+                "timezone": "Asia/Krasnoyarsk",
+                "iata": "KJA",
+                "icao": "UNKL",
+                "terminal": "1",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-17T04:05:00+00:00",
+                "estimated": "2026-07-17T04:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Tolmachevo",
+                "timezone": "Asia/Novosibirsk",
+                "iata": "OVB",
+                "icao": "UNNT",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-17T05:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "S7 Airlines",
+                "iata": "S7",
+                "icao": "SBI"
+            },
+            "flight": {
+                "number": "5310",
+                "iata": "S75310",
+                "icao": "SBI5310",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Krasnojarsk",
+                "timezone": "Asia/Krasnoyarsk",
+                "iata": "KJA",
+                "icao": "UNKL",
+                "terminal": "1",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-17T03:55:00+00:00",
+                "estimated": "2026-07-17T03:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Amparai",
+                "timezone": "Asia/Colombo",
+                "iata": "GOY",
+                "icao": "VCCG",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-17T05:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Krasavia",
+                "iata": "KV",
+                "icao": "SSJ"
+            },
+            "flight": {
+                "number": "155",
+                "iata": "KV155",
+                "icao": "SSJ155",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Novyy",
+                "timezone": "Asia/Vladivostok",
+                "iata": "KHV",
+                "icao": "UHHH",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-17T07:00:00+00:00",
+                "estimated": "2026-07-17T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Nikolayevsk-na-Amure Airport",
+                "timezone": null,
+                "iata": "NLI",
+                "icao": "UHNN",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-17T08:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aurora",
+                "iata": "HZ",
+                "icao": "SHU"
+            },
+            "flight": {
+                "number": "3100",
+                "iata": "HZ3100",
+                "icao": "SHU3100",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Novyy",
+                "timezone": "Asia/Vladivostok",
+                "iata": "KHV",
+                "icao": "UHHH",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-17T07:00:00+00:00",
+                "estimated": "2026-07-17T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Nikolayevsk-na-Amure Airport",
+                "timezone": null,
+                "iata": "NLI",
+                "icao": "UHNN",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-17T08:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeroflot",
+                "iata": "SU",
+                "icao": "AFL"
+            },
+            "flight": {
+                "number": "4649",
+                "iata": "SU4649",
+                "icao": "AFL4649",
+                "codeshared": {
+                    "airline_name": "aurora",
+                    "airline_iata": "hz",
+                    "airline_icao": "shu",
+                    "flight_number": "3100",
+                    "flight_iata": "hz3100",
+                    "flight_icao": "shu3100"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Novyy",
+                "timezone": "Asia/Vladivostok",
+                "iata": "KHV",
+                "icao": "UHHH",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-17T06:25:00+00:00",
+                "estimated": "2026-07-17T06:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Tolmachevo",
+                "timezone": "Asia/Novosibirsk",
+                "iata": "OVB",
+                "icao": "UNNT",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-17T08:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "S7 Airlines",
+                "iata": "S7",
+                "icao": "SBI"
+            },
+            "flight": {
+                "number": "5240",
+                "iata": "S75240",
+                "icao": "SBI5240",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Quaid-e-azam International",
+                "timezone": "Asia/Karachi",
+                "iata": "KHI",
+                "icao": "OPKC",
+                "terminal": "M",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-17T02:05:00+00:00",
+                "estimated": "2026-07-17T02:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "King Abdulaziz International",
+                "timezone": "Asia/Riyadh",
+                "iata": "JED",
+                "icao": "OEJN",
+                "terminal": "H",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-17T04:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "AirSial",
+                "iata": "PF",
+                "icao": "SIF"
+            },
+            "flight": {
+                "number": "714",
+                "iata": "PF714",
+                "icao": "SIF714",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7609F3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Quaid-e-azam International",
+                "timezone": "Asia/Karachi",
+                "iata": "KHI",
+                "icao": "OPKC",
+                "terminal": "M",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-17T01:50:00+00:00",
+                "estimated": "2026-07-17T01:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sharjah",
+                "timezone": "Asia/Dubai",
+                "iata": "SHJ",
+                "icao": "OMSJ",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-17T03:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Arabia",
+                "iata": "G9",
+                "icao": "ABY"
+            },
+            "flight": {
+                "number": "549",
+                "iata": "G9549",
+                "icao": "ABY549",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Karaganda",
+                "timezone": "Asia/Almaty",
+                "iata": "KGF",
+                "icao": "UAKK",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-17T01:50:00+00:00",
+                "estimated": "2026-07-17T01:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Novo Alexeyevka International",
+                "timezone": "Asia/Tbilisi",
+                "iata": "TBS",
+                "icao": "UGTB",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-17T04:49:00+00:00",
+                "delay": 10,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "CAMEX Airlines",
+                "iata": "Z7",
+                "icao": "CMS"
+            },
+            "flight": {
+                "number": null,
+                "iata": "Z7",
+                "icao": "CMS",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "5140C5"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Invercargill",
+                "timezone": "Pacific/Auckland",
+                "iata": "IVC",
+                "icao": "NZNV",
+                "terminal": null,
+                "gate": "3",
+                "delay": null,
+                "scheduled": "2026-07-17T08:35:00+00:00",
+                "estimated": "2026-07-17T08:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D9",
+                "baggage": null,
+                "scheduled": "2026-07-17T09:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "5704",
+                "iata": "NZ5704",
+                "icao": "ANZ5704",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C82315"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-17",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Invercargill",
+                "timezone": "Pacific/Auckland",
+                "iata": "IVC",
+                "icao": "NZNV",
+                "terminal": null,
+                "gate": "3",
+                "delay": null,
+                "scheduled": "2026-07-17T08:35:00+00:00",
+                "estimated": "2026-07-17T08:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D9",
+                "baggage": null,
+                "scheduled": "2026-07-17T09:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "8616",
+                "iata": "QF8616",
+                "icao": "QFA8616",
+                "codeshared": {
+                    "airline_name": "air new zealand",
+                    "airline_iata": "nz",
+                    "airline_icao": "anz",
+                    "flight_number": "5704",
+                    "flight_iata": "nz5704",
+                    "flight_icao": "anz5704"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C82315"
+            },
+            "live": null
+        }
+    ]
+}
